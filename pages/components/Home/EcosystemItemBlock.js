@@ -6,7 +6,7 @@ function EcosystemItemBlock({ title, description, imageSrc }) {
       <div className="mx-auto relative">
         <Image className="-translate-y-12 -mb-12" src={imageSrc} width={100} height={100} alt="icons of the Ecoystem" />
       </div>
-      <h2 className="text-lg sm:text-xl xl:text-2xl font-bold text-purple-900">{title}</h2>
+      <h2 className="text-lg sm:text-xl xl:text-2xl font-black text-purple-900">{title}</h2>
       <div className="flex-1 p-3">
         <p className="lowercase">{description}</p>
       </div>

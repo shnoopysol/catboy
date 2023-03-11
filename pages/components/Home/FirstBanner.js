@@ -17,31 +17,31 @@ function FirstBanner({ ecosystemBannerRef }) {
           <EcosystemItemBlock
             title={"collect NFTs"}
             description={"Collectible Catboy cards are fun and unique for any fan."}
-            imageSrc={"/static/catboy_key.png"}
+            imageSrc={"/static/nfticon.svg"}
           />
           <EcosystemItemBlock
             title={"MARKETPLACE"}
             description={"Provides an innovative way to buy and sell your collectible NFTs"}
-            imageSrc={"/static/catboy_key.png"}
+            imageSrc={"/static/marketplace.svg"}
           />
           <EcosystemItemBlock
             title={"STAKING"}
             description={"Stake your tokens here!"}
-            imageSrc={"/static/catboy_key.png"}
+            imageSrc={"/static/coinIcon.svg"}
           />
           <EcosystemItemBlock
             title={"BATTLE GAME"}
             description={
               "Join Catboy on an epic adventure in our new battle game! Discover your NFTs powerful abilities against the enemies. Are you ready to see your opponents? Join the fight with Catboy now!"
             }
-            imageSrc={"/static/catboy_key.png"}
+            imageSrc={"/static/battleIcon.svg"}
           />
           <EcosystemItemBlock
             title={"CHIBIS RAFFLE"}
             description={
               "Winning a Chibis raffle gives you a chance to win amazing mystery prizes."
             }
-            imageSrc={"/static/catboy_key.png"}
+            imageSrc={"/static/raffleboard.svg"}
           />
         </div>
       </div>

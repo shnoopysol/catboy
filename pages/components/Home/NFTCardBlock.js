@@ -51,12 +51,12 @@ function NFTCardBlock({ nftObj, i, setSelected, setSelectedDivRef, selectedDivRe
       className={`p-1 z-0 relative rounded-md`}
       onMouseEnter={hoverOn}
       onMouseLeave={hoverOff}
-      style={{ backgroundColor: nftObj.bgColor }}
+      style={{ backgroundColor: nftObj?.bgColor }}
       onClick={select}
       ref={mainDivRef}
     >
-      <Image src={nftObj.imageSrc} width={200} height={300} alt="NFT card background" />
-      <h2 className="text-xs sm:text-sm ld:text-lg font-bold capitalize">{nftObj.rarity}</h2>
+      <Image src={nftObj?.imageSrc} width={200} height={300} alt="NFT card background" />
+      <h2 className="text-xs sm:text-sm ld:text-lg font-bold capitalize">{nftObj?.rarity}</h2>
     </div>
   );
 }

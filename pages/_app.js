@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import Head from "next/head";
-import { Merienda } from "@next/font/google";
+import { Merienda } from "next/font/google";
 
 const merienda = Merienda({ subsets: ["latin"], variable: "--font-merienda" });
 
