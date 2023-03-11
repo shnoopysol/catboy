@@ -7,7 +7,7 @@ function FirstBanner({ ecosystemBannerRef }) {
       className="min-w-screen min-h-screen grid place-items-center uppercase text-center p-3 sm:p-6 relative"
       ref={ecosystemBannerRef}
     >
-      <Image src="/static/sparkly_background.svg" className="object-cover object-right-top z-0" fill priority/>
+      <Image src="/static/sparkly_background.svg" className="object-cover object-right-top z-0" fill priority alt="sparkly purple wallpaper"/>
       {/* Linear Gradient Cover */}
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-b from-purple-900 to-purple-900/20"></div>
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-purple-900 to-purple-900/20"></div>

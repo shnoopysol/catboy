@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import MainBanner from "./components/Home/MainBanner.js";
 import FirstBanner from "./components/Home/FirstBanner.js";
 import SecondBanner from "./components/Home/SecondBanner.js";
@@ -7,7 +7,6 @@ import FourthBanner from "./components/Home/FourthBanner.js";
 import FifthBanner from "./components/Home/FifthBanner.js";
 import SixthBanner from "./components/Home/SixthBanner.js";
 import SeventhBanner from "./components/Home/SeventhBanner.js";
-import EighthBanner from "./components/Home/EighthBanner.js";
 import EmptySpaceBanner from "./components/Home/EmptySpaceBanner.js";
 import NavigationBar from "./components/NavigationBar.js";
 
@@ -19,6 +18,18 @@ function HomeViewController() {
   const roadmapBannerRef = useRef();
   const gentlemenBannerRef = useRef();
   const teamBannerRef = useRef();
+
+  const [currentScrollY, setCurrentScrollY] = useState();
+
+  useEffect(() => {
+    const listenScrollEvent = (e) => {
+      setCurrentScrollY(window.scrollY);
+    }
+
+    window.addEventListener("scroll", listenScrollEvent);
+
+    return () => window.removeEventListener("scroll", listenScrollEvent);
+  }, []);
 
   return (
     <div className="min-w-screen min-h-screen text-white bg-purple-800">
@@ -32,18 +43,17 @@ function HomeViewController() {
           teamBannerRef={teamBannerRef}
           mainBannerRef={mainBannerRef}
         />
-        <MainBanner mainBannerRef={mainBannerRef}/>
+        <MainBanner mainBannerRef={mainBannerRef} currentScrollY={currentScrollY}/>
         <EmptySpaceBanner />
         <FirstBanner ecosystemBannerRef={ecosystemBannerRef} />
-        <SecondBanner mysteryBannerRef={mysteryBannerRef} />
-        <ThirdBanner nftBannerRef={nftBannerRef} />
+        <SecondBanner nftBannerRef={nftBannerRef} />
         <EmptySpaceBanner />
-        <FourthBanner roadmapBannerRef={roadmapBannerRef} />
-        <FifthBanner gentlemenBannerRef={gentlemenBannerRef} />
-        <SixthBanner teamBannerRef={teamBannerRef} />
+        <ThirdBanner roadmapBannerRef={roadmapBannerRef} />
+        <FourthBanner gentlemenBannerRef={gentlemenBannerRef} />
+        <FifthBanner teamBannerRef={teamBannerRef} />
+        <SixthBanner />
+        <EmptySpaceBanner />
         <SeventhBanner />
-        <EmptySpaceBanner />
-        <EighthBanner />
       </div>
     </div>
   );

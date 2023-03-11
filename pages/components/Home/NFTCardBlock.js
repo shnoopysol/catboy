@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import Image from "next/image";
 
 function NFTCardBlock({ nftObj, i, setSelected, setSelectedDivRef, selectedDivRef }) {
@@ -39,7 +39,7 @@ function NFTCardBlock({ nftObj, i, setSelected, setSelectedDivRef, selectedDivRe
   };
 
   useEffect(() => {
-    if (i === 3) {
+    if (i === 1) {
       mainDivRef.current.style.transform = "scale(1.1)";
       setSelected(i);
       setSelectedDivRef(mainDivRef);
@@ -48,15 +48,15 @@ function NFTCardBlock({ nftObj, i, setSelected, setSelectedDivRef, selectedDivRe
 
   return (
     <div
-      className="p-1 rounded-md"
+      className={`p-1 z-0 relative rounded-md`}
       onMouseEnter={hoverOn}
       onMouseLeave={hoverOff}
       style={{ backgroundColor: nftObj.bgColor }}
       onClick={select}
       ref={mainDivRef}
     >
-      <Image src={nftObj.imageSrc} width={200} height={200} />
-      <h2 className="text-xs sm:text-sm ld:text-lg">{nftObj.rarity}</h2>
+      <Image src={nftObj.imageSrc} width={200} height={300} alt="NFT card background" />
+      <h2 className="text-xs sm:text-sm ld:text-lg font-bold capitalize">{nftObj.rarity}</h2>
     </div>
   );
 }

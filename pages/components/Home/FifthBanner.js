@@ -1,80 +1,67 @@
 import Image from "next/image";
 
 /* 
-  Gentlemen's Club
+  Team
 */
-function FifthBanner({ gentlemenBannerRef }) {
+function FifthBanner({ teamBannerRef }) {
   return (
     <div
-      className="min-w-screen min-h-screen grid place-items-center text-center relative"
-      ref={gentlemenBannerRef}
+      className="min-w-screen min-h-screen grid place-items-center text-center p-6 relative"
+      ref={teamBannerRef}
     >
       <Image
         className="object-cover object-center z-0"
-        src="/static/GentlemensClubBackground.svg"
+        src="/static/TeamBackground.svg"
         fill
         priority
-        alt="roadmap wallpaper"
+        alt="team background wallpaper"
       />
-
       {/* Linear Gradient Cover */}
-      {/* <div className="absolute top-0 left-0 right-0 bottom-[70%] bg-gradient-to-b via-transparent from-purple-900 to-transparent z-50"></div>
-      <div className="absolute top-[70%] left-0 right-0 bottom-0 bg-gradient-to-t from-purple-900 via-transparent to-transparent z-50"></div> */}
-      <Image
-        className="absolute bottom-0 right-0 z-10"
-        src="/static/GirlGraphicGentlemen.png"
-        width={400}
-        height={400}
-        alt="girl graphic Gentlemen"
-      />
-      <Image
-        className="absolute bottom-0 left-0 z-10 invisible sm:visible"
-        src="/static/GraphicHaruGentlemen.png"
-        width={300}
-        height={300}
-        alt="guy graphic Gentlemen"
-      />
-      <div className="w-11/12 pb-60 sm:3/4 max-w-6xl flex flex-col items-center z-10 lg:z-0">
-        <Image src="/static/TitleGentlemensClub.png" width={400} height={400} />
-        <div className="max-w-lg xl:max-w-2xl bg-gray-500/40 rounded-3xl py-6 px-4 shadow-lg mb-10 text-black-shadow text-gray-200">
-          <p className="text-sm lg:text-base">
-            The Catboy Gentlemen's Club is an exclusive, members only club for the creme de la creme
-            of cat lovers. It's an exclusive membership of distinguished eaters who share the same
-            core values of trust, respect, and loyalty. With hand-picked top members from our
-            community around the world. Become part of this prestigious community today by joining
-            the Catboy Gentlemen's Club!
-          </p>
+      {/* <div className="absolute top-0 left-0 right-0 bottom-[70%] bg-gradient-to-b from-purple-900 via-transparent to-transparent"></div>
+      <div className="absolute top-[70%] left-0 right-0 bottom-0 bg-gradient-to-t from-purple-900 via-transparent to-transparent"></div> */}
+      <div className="w-11/12 sm:3/4 max-w-6xl min-h-[750px] z-10">
+        <div className="w-fit mx-auto mb-20 relative">
+          <Image src="/static/PurpleButton.png" width={300} height={100} alt="purple title background"/>
+          <h1 className="absolute top-0 left-0 right-0 bottom-0 m-auto font-bold text-2xl h-fit text-black-shadow">
+            Meet the team
+          </h1>
         </div>
-        <div className="w-screen bg-amber-50/80 py-4 flex justify-center gap-1 sm:gap-3 lg:gap-5 items-center text-black">
-          <div>
-            <h2 className="font-merienda font-black leading-tight text-xs sm:text-sm lg:text-lg">
-              Korukinshi
-            </h2>
-            <p className="font-semibold leading-tight text-[10px] lg:text-xs">@korukisnu</p>
-          </div>
-          <div>
-            <h2 className="font-merienda font-black leading-tight text-xs sm:text-sm lg:text-lg">
-              Selina
-            </h2>
-            <p className="font-semibold leading-tight text-[10px] lg:text-xs">@flowerselina</p>
-          </div>
-          <div>
-            <h2 className="font-merienda font-black leading-tight text-xs sm:text-sm lg:text-lg">
-              Winslow
-            </h2>
-            <p className="font-semibold leading-tight text-[10px] lg:text-xs">@Winslowbankz</p>
-          </div>
-          <div>
-            <h2 className="font-merienda font-black leading-tight text-xs sm:text-sm lg:text-lg">
-              Bene
-            </h2>
-            <p className="font-semibold leading-tight text-[10px] lg:text-xs">@bennegj</p>
-          </div>
-          <div>
-            <h2 className="font-merienda font-black leading-tight text-xs sm:text-sm lg:text-lg">
-              Matt
-            </h2>
-            <p className="font-semibold leading-tight text-[10px] lg:text-xs">@Mctwen</p>
+        <div className="grid grid-cols-3">
+          <div className="grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-2 col-start-1 col-end-4 lg:col-end-3 gap-5 sm:gap-0 font-black uppercase">
+            <div className="sm:col-start-1 sm:col-end-2 sm:row-start-1 sm:row-end-2 sm:scale-125 mx-auto">
+              <div className="mb-3">
+                <h2 className="leading-none text-black-shadow">Bene</h2>
+                <h3 className="leading-none text-black-shadow">Founder</h3>
+              </div>
+              <Image
+                src="/static/BeneProfile.png"
+                width={300}
+                height={300}
+                alt="bene's profile pic"
+              />
+              <div></div>
+            </div>
+            <div className="sm:col-start-2 sm:col-end-3 sm:row-start-2 sm:row-end-3 sm:scale-125 mx-auto">
+              <div className="mb-3">
+                <h2 className="leading-none text-black-shadow">CJ</h2>
+                <h3 className="leading-none text-black-shadow">CFO</h3>
+              </div>
+              <Image src="/static/CJProfile.png" width={300} height={300} alt="CJ's profile pic" />
+              <div></div>
+            </div>
+            <div className="sm:col-start-3 sm:col-end-4 sm:row-start-1 sm:row-end-2 sm:scale-125 mx-auto">
+              <div className="mb-3">
+                <h2 className="leading-none text-black-shadow">Selina</h2>
+                <h3 className="leading-none text-black-shadow">Co-owner</h3>
+              </div>
+              <Image
+                src="/static/SelinaProfile.png"
+                width={300}
+                height={300}
+                alt="Selina's profile pic"
+              />
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
