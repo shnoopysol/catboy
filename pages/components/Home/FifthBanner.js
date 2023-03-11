@@ -55,7 +55,7 @@ function FifthBanner({ teamBannerRef }) {
                 <h3 className="leading-none text-black-shadow">Co-owner</h3>
               </div>
               <Image
-                src="/static/SelinaProfile.png"
+                src="/static/selinaProfile.png"
                 width={300}
                 height={300}
                 alt="Selina's profile pic"

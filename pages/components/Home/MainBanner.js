@@ -3,10 +3,18 @@ import Image from "next/image";
 function MainBanner({ mainBannerRef, currentScrollY }) {
   return (
     <div
-      className={`w-screen h-screen flex flex-col-reverse p-3 sm:p-6 relative bg-[url('/static/cherry_blossoms.svg')] bg-[height:100%]`}
-      style={{ backgroundPositionY: `${currentScrollY / 5}%` }}
+      className={`w-screen h-screen flex flex-col-reverse p-3 sm:p-6 relative`}
       ref={mainBannerRef}
     >
+      <div className={`absolute top-0 bottom-0 left-0 right-0`} style={{ bottom: `${currentScrollY ? currentScrollY / 50 : 0}%` }}>
+        <Image
+          className={`object-cover object-bottom z-0`}
+          // style={{ bottom: `${currentScrollY / 5}%` }}
+          src="/static/cherry_blossoms.svg"
+          fill
+          priority
+        />
+      </div>
       <Image
         className="object-cover object-top z-0"
         src="/static/catboys_background.svg"

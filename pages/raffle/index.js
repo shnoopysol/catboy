@@ -35,7 +35,7 @@ function index() {
       <div className="w-full max-w-[750px] xl:max-w-[900px]  px-6 z-10 flex flex-col sm:flex-row justify-center gap-4 absolute top-[8%] lg:top-[10%] lg:right-[5%] drop-shadow-[0_0_50px_lightgray]">
         <div className="flex flex-col gap-1 sm:gap-2 flex-1 ">
           <div className="border-2 border-gray-900/40 bg-gradient-to-br from-pink-400/80 via-purple-500/80 to-purple-800/80 p-3 rounded-lg shadow-lg flex-1 relative min-h-[125px] sm:min-h-[250px] xl:min-h-[375px]">
-            <Image src="/static/question_mark.svg" className=" object-bottom object-contain" fill alt="question mark icon" />
+            <Image src="/static/question_mark.svg" className=" object-bottom object-contain" fill alt="question mark icon" priority />
           </div>
           <h2 className="border-2 border-gray-900/40 bg-gradient-to-br from-pink-400/80 via-purple-500/80 to-purple-800/80 px-4 py-1 rounded-bl-lg rounded-tr-lg text-xs text-black-shadow">
             Mystery gift
@@ -43,7 +43,7 @@ function index() {
         </div>
         <div className="flex flex-col gap-1 sm:gap-2 flex-1">
           <div className="border-2 border-gray-900/40 bg-gradient-to-br from-pink-400/80 via-purple-500/80 to-purple-800/80 p-3 rounded-lg shadow-lg flex-1 relative min-h-[125px] sm:min-h-[250px] xl:min-h-[375px]">
-            <Image src="/static/running_guy.svg" className="-ml-3 object-contain object-bottom" fill alt="running guy" />
+            <Image src="/static/running_guy.svg" className="-ml-3 object-contain object-bottom" fill alt="running guy" priority />
           </div>
           <h2 className="border-2 border-gray-900/40 bg-gradient-to-br from-pink-400/80 via-purple-500/80 to-purple-800/80 px-4 py-1 rounded-bl-lg rounded-tr-lg text-xs text-black-shadow">
             Uncommon NFT
@@ -51,7 +51,7 @@ function index() {
         </div>
         <div className="flex flex-col gap-1 sm:gap-2 flex-1">
           <div className="border-2 border-gray-900/40 bg-gradient-to-br from-pink-400/80 via-purple-500/80 to-purple-800/80 rounded-lg shadow-lg flex-1 relative min-h-[125px] sm:min-h-[250px] xl:min-h-[375px]">
-            <Image src="/static/CommonChibiRaffle.png" className="object-contain object-bottom" fill alt="chibi raffling" />
+            <Image src="/static/CommonChibiRaffle.png" className="object-contain object-bottom" fill alt="chibi raffling" priority />
           </div>
           <h2 className="border-2 border-gray-900/40 bg-gradient-to-br from-pink-400/80 via-purple-500/80 to-purple-800/80 px-4 py-1 rounded-bl-lg rounded-tr-lg text-xs text-black-shadow">
             Common NFT
@@ -59,7 +59,7 @@ function index() {
         </div>
         <div className="flex flex-col gap-1 sm:gap-2 flex-1">
           <div className="border-2 border-gray-900/40 bg-gradient-to-br from-pink-400/80 via-purple-500/80 to-purple-800/80 rounded-lg shadow-lg flex-1 relative min-h-[125px] sm:min-h-[250px] xl:min-h-[375px]">
-            <Image src="/static/WaifuChibiRaffle.png" className="-ml-3 object-contain object-bottom" fill alt="waifu chibi" />
+            <Image src="/static/WaifuChibiRaffle.png" className="-ml-3 object-contain object-bottom" fill priority alt="waifu chibi" />
           </div>
           <h2 className="border-2 border-gray-900/40 bg-gradient-to-br from-pink-400/80 via-purple-500/80 to-purple-800/80 px-4 py-1 rounded-bl-lg rounded-tr-lg text-xs text-black-shadow">
             Waifu

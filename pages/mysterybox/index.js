@@ -69,7 +69,7 @@ function index() {
           </Carousel>
         </div>
         <div className="w-full h-32 grid xl:grid-cols-7 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 grid-flow-row order-3 gap-2">
-          <MysteryBoxItemBlock name={"BOOSTER KEY"} imageSrc={"/static/Catboy_key.svg"} />
+          <MysteryBoxItemBlock name={"BOOSTER KEY"} imageSrc={"/static/catboy_key.svg"} />
           <MysteryBoxItemBlock name={"INVENTORY"} imageSrc={"/static/box.svg"} />
           <MysteryBoxItemBlock name={"MARKETPLACE"} imageSrc={"/static/marketplace.svg"} />
           <MysteryBoxItemBlock name={"UPGRADE MACHINE"} imageSrc={"/static/treasure_chest.svg"} />
