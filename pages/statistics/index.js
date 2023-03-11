@@ -81,11 +81,12 @@ function index() {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-3">
           <Image
-            className="fixed -bottom-20 -left-5 z-0"
+            className="fixed -bottom-20 -left-5 z-0 w-auto"
             src="/static/GraphicHaruDesk.png"
             width={450}
             height={700}
             alt="graphic haru desk"
+            priority
           />
           <div className="sm:row-start-2 sm:row-end-4 sm:col-start-2 sm:col-end-4 flex flex-col sm:flex-row sm:justify-center  gap-6 sm:gap-4 z-20">
             <div className="sm:flex-1 mx-auto">

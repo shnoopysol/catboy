@@ -21,7 +21,7 @@ function FifthBanner({ teamBannerRef }) {
       <div className="absolute top-[70%] left-0 right-0 bottom-0 bg-gradient-to-t from-purple-900 via-transparent to-transparent"></div> */}
       <div className="w-11/12 sm:3/4 max-w-6xl min-h-[750px] z-10">
         <div className="w-fit mx-auto mb-20 relative">
-          <Image src="/static/PurpleButton.png" width={300} height={100} alt="purple title background"/>
+          <Image src="/static/PurpleButton.png" className="w-auto" width={300} height={100} alt="purple title background"/>
           <h1 className="absolute top-0 left-0 right-0 bottom-0 m-auto font-bold text-2xl h-fit text-black-shadow">
             Meet the team
           </h1>

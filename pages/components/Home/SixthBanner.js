@@ -22,10 +22,25 @@ function SixthBanner() {
           </h1>
           <div className="flex gap-6">
             <Image src="/static/logos/bnb_logo.png" width={75} height={75} alt="bnb logo" />
-            <Image src="/static/logos/cmc_logo.png" width={75} height={75} alt="coinmarketcap logo" />
-            <Image src="/static/logos/coingecko_logo.png" width={75} height={75} alt="coingecko logo" />
+            <Image
+              src="/static/logos/cmc_logo.png"
+              width={75}
+              height={75}
+              alt="coinmarketcap logo"
+            />
+            <Image
+              src="/static/logos/coingecko_logo.png"
+              width={75}
+              height={75}
+              alt="coingecko logo"
+            />
             <Image src="/static/logos/pcs_logo.png" width={75} height={75} alt="pancakeswap logo" />
-            <Image src="/static/logos/dextools_logo.png" width={75} height={75} alt="dextools logo" />
+            <Image
+              src="/static/logos/dextools_logo.png"
+              width={75}
+              height={75}
+              alt="dextools logo"
+            />
           </div>
         </div>
       </div>
@@ -40,7 +55,13 @@ function SixthBanner() {
                 href="https://www.benzinga.com/markets/cryptocurrency/22/03/26196149/step-aside-dogecoin-knockoffs-this-cat-coin-is-stealing-the-limelight-with-a-642-spike-thi"
                 target="_blank"
               >
-                <Image src="/static/logos/Benzinga_logo.png" width={75} height={75} alt="benzinga logo" />
+                <Image
+                  src="/static/logos/benzinga_logo.png"
+                  className="w-auto"
+                  width={75}
+                  height={75}
+                  alt="benzinga logo"
+                />
               </Link>
             </div>
             <div className="px-10 lg:px-24">
@@ -48,7 +69,13 @@ function SixthBanner() {
                 href="https://www.bitcoininsider.org/article/154829/catboy-token-now-available-pancakeswap-announces-new-staking-and-marketplace"
                 target="_blank"
               >
-                <Image src="/static/logos/bitcoin_insider_logo.png" width={75} height={75} alt="bitcoin insider logo" />
+                <Image
+                  src="/static/logos/bitcoin_insider_logo.png"
+                  className="w-auto"
+                  width={75}
+                  height={75}
+                  alt="bitcoin insider logo"
+                />
               </Link>
             </div>
             <div className="px-10 lg:px-24">
@@ -56,7 +83,13 @@ function SixthBanner() {
                 href="https://www.bloomberg.com/press-releases/2022-03-19/catboy-token-now-available-on-pancakeswap-announces-new-staking-and-marketplace-functions-with-18-different-nfts-in-mystery"
                 target="_blank"
               >
-                <Image src="/static/logos/bloomberg_logo.png" width={75} height={75} alt="bloomberg logo" />
+                <Image
+                  src="/static/logos/bloomberg_logo.png"
+                  className="w-auto"
+                  width={75}
+                  height={75}
+                  alt="bloomberg logo"
+                />
               </Link>
             </div>
             <div className="px-10 lg:px-24">
@@ -64,7 +97,13 @@ function SixthBanner() {
                 href="https://finance.yahoo.com/news/catboy-token-now-available-pancakeswap-171100173.html"
                 target="_blank"
               >
-                <Image src="/static/logos/yahoo_logo.png" width={75} height={75} alt="yahoo logo" />
+                <Image
+                  src="/static/logos/yahoo_logo.png"
+                  className="w-auto"
+                  width={75}
+                  height={75}
+                  alt="yahoo logo"
+                />
               </Link>
             </div>
             <div className="px-10 lg:px-24">
@@ -72,7 +111,13 @@ function SixthBanner() {
                 href="https://www.nasdaq.com/press-release/catboy-token-now-available-on-pancakeswap-announces-new-staking-and-marketplace"
                 target="_blank"
               >
-                <Image src="/static/logos/nasdaq_logo.png" width={75} height={75} alt="nasdaq logo" />
+                <Image
+                  src="/static/logos/nasdaq_logo.png"
+                  className="w-auto"
+                  width={75}
+                  height={75}
+                  alt="nasdaq logo"
+                />
               </Link>
             </div>
             <div className="px-10 lg:px-24">
@@ -80,7 +125,13 @@ function SixthBanner() {
                 href="https://www.benzinga.com/markets/cryptocurrency/22/03/26196149/step-aside-dogecoin-knockoffs-this-cat-coin-is-stealing-the-limelight-with-a-642-spike-thi"
                 target="_blank"
               >
-                <Image src="/static/logos/Benzinga_logo.png" width={75} height={75} alt="benzinga logo" />
+                <Image
+                  src="/static/logos/benzinga_logo.png"
+                  className="w-auto"
+                  width={75}
+                  height={75}
+                  alt="benzinga logo"
+                />
               </Link>
             </div>
             <div className="px-10 lg:px-24">
@@ -88,7 +139,13 @@ function SixthBanner() {
                 href="https://www.bitcoininsider.org/article/154829/catboy-token-now-available-pancakeswap-announces-new-staking-and-marketplace"
                 target="_blank"
               >
-                <Image src="/static/logos/bitcoin_insider_logo.png" width={75} height={75} alt="bitcoin insider logo" />
+                <Image
+                  src="/static/logos/bitcoin_insider_logo.png"
+                  className="w-auto"
+                  width={75}
+                  height={75}
+                  alt="bitcoin insider logo"
+                />
               </Link>
             </div>
             <div className="px-10 lg:px-24">
@@ -96,7 +153,13 @@ function SixthBanner() {
                 href="https://www.bloomberg.com/press-releases/2022-03-19/catboy-token-now-available-on-pancakeswap-announces-new-staking-and-marketplace-functions-with-18-different-nfts-in-mystery"
                 target="_blank"
               >
-                <Image src="/static/logos/bloomberg_logo.png" width={75} height={75} alt="bloomberg logo" />
+                <Image
+                  src="/static/logos/bloomberg_logo.png"
+                  className="w-auto"
+                  width={75}
+                  height={75}
+                  alt="bloomberg logo"
+                />
               </Link>
             </div>
             <div className="px-10 lg:px-24">
@@ -104,7 +167,13 @@ function SixthBanner() {
                 href="https://finance.yahoo.com/news/catboy-token-now-available-pancakeswap-171100173.html"
                 target="_blank"
               >
-                <Image src="/static/logos/yahoo_logo.png" width={75} height={75} alt="yahoo logo" />
+                <Image
+                  src="/static/logos/yahoo_logo.png"
+                  className="w-auto"
+                  width={75}
+                  height={75}
+                  alt="yahoo logo"
+                />
               </Link>
             </div>
             <div className="px-10 lg:px-24">
@@ -112,7 +181,13 @@ function SixthBanner() {
                 href="https://www.nasdaq.com/press-release/catboy-token-now-available-on-pancakeswap-announces-new-staking-and-marketplace"
                 target="_blank"
               >
-                <Image src="/static/logos/nasdaq_logo.png" width={75} height={75} alt="nasdaq logo" />
+                <Image
+                  src="/static/logos/nasdaq_logo.png"
+                  className="w-auto"
+                  width={75}
+                  height={75}
+                  alt="nasdaq logo"
+                />
               </Link>
             </div>
           </Marquee>

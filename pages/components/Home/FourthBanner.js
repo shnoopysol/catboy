@@ -18,24 +18,23 @@ function FourthBanner({ gentlemenBannerRef }) {
       />
 
       {/* Linear Gradient Cover */}
-      {/* <div className="absolute top-0 left-0 right-0 bottom-[70%] bg-gradient-to-b via-transparent from-purple-900 to-transparent z-50"></div>
-      <div className="absolute top-[70%] left-0 right-0 bottom-0 bg-gradient-to-t from-purple-900 via-transparent to-transparent z-50"></div> */}
+      <div className="absolute top-[70%] left-0 right-0 bottom-0 bg-gradient-to-t from-gray-900 via-gray-800/70 to-transparent z-20"></div>
       <Image
-        className="absolute bottom-0 right-0 z-10"
+        className="absolute bottom-0 right-0 z-10 w-auto"
         src="/static/GirlGraphicGentlemen.png"
         width={400}
         height={400}
         alt="girl graphic Gentlemen"
       />
       <Image
-        className="absolute bottom-0 left-0 z-10 invisible sm:visible"
+        className="absolute bottom-0 left-0 z-10 invisible lg:visible w-auto"
         src="/static/GraphicHaruGentlemen.png"
         width={300}
         height={300}
         alt="guy graphic Gentlemen"
       />
-      <div className="w-11/12 pb-60 sm:3/4 max-w-6xl flex flex-col items-center z-10 lg:z-0">
-        <Image src="/static/TitleGentlemensClub.png" width={400} height={400} alt="title gentlemens club background"/>
+      <div className="w-11/12 pb-60 sm:3/4 max-w-6xl flex flex-col items-center z-10 2xl:z-0">
+        <Image src="/static/TitleGentlemensClub.png" className="w-auto" width={400} height={400} alt="title gentlemens club background"/>
         <div className="max-w-lg xl:max-w-2xl bg-gray-500/40 rounded-3xl py-6 px-4 shadow-lg mb-10 text-black-shadow text-gray-200">
           <p className="text-sm lg:text-base">
             The Catboy Gentlemen&apos;s Club is an exclusive, members only club for the creme de la creme

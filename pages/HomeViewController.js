@@ -44,15 +44,18 @@ function HomeViewController() {
           mainBannerRef={mainBannerRef}
         />
         <MainBanner mainBannerRef={mainBannerRef} currentScrollY={currentScrollY}/>
-        <EmptySpaceBanner />
+        <EmptySpaceBanner type={"main"}/>
         <FirstBanner ecosystemBannerRef={ecosystemBannerRef} />
         <SecondBanner nftBannerRef={nftBannerRef} />
-        <EmptySpaceBanner />
+        <EmptySpaceBanner type={"minor"} />
         <ThirdBanner roadmapBannerRef={roadmapBannerRef} />
+        <EmptySpaceBanner type={"minor"} />
         <FourthBanner gentlemenBannerRef={gentlemenBannerRef} />
+        <EmptySpaceBanner type={"minor"} />
         <FifthBanner teamBannerRef={teamBannerRef} />
+        <EmptySpaceBanner type={"minor"} />
         <SixthBanner />
-        <EmptySpaceBanner />
+        <EmptySpaceBanner type={"main"} />
         <SeventhBanner />
       </div>
     </div>

@@ -55,7 +55,7 @@ function NFTCardBlock({ nftObj, i, setSelected, setSelectedDivRef, selectedDivRe
       onClick={select}
       ref={mainDivRef}
     >
-      <Image src={nftObj?.imageSrc} width={200} height={300} alt="NFT card background" />
+      <Image src={nftObj?.imageSrc} className="w-auto" width={200} height={300} alt="NFT card background" />
       <h2 className="text-xs sm:text-sm ld:text-lg font-bold capitalize">{nftObj?.rarity}</h2>
     </div>
   );

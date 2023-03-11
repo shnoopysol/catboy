@@ -45,7 +45,7 @@ function SecondBanner({ nftBannerRef }) {
               {">"}
             </button>
           </div>
-          <Image src="/static/PurpleButtonsPointy.png" width={300} height={100} alt="purple background for the title" />
+          <Image src="/static/PurpleButtonsPointy.png" className="w-auto" width={300} height={100} alt="purple background for the title" />
         </div>
 
         <div className="flex flex-col justify-start gap-3 min-h-[400px] lg:min-h-[600px]">

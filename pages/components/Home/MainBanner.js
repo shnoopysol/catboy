@@ -9,10 +9,10 @@ function MainBanner({ mainBannerRef, currentScrollY }) {
       <div className={`absolute top-0 bottom-0 left-0 right-0`} style={{ bottom: `${currentScrollY ? currentScrollY / 50 : 0}%` }}>
         <Image
           className={`object-cover object-bottom z-0`}
-          // style={{ bottom: `${currentScrollY / 5}%` }}
           src="/static/cherry_blossoms.svg"
           fill
           priority
+          alt="website wallpaper background"
         />
       </div>
       <Image
@@ -26,7 +26,7 @@ function MainBanner({ mainBannerRef, currentScrollY }) {
       <div className="w-full flex flex-col items-center gap-4 py-3 sm:py-10 z-10">
         <Image
           src="/static/TitleCatboy_cropped.png"
-          className="hover:animate-anime-jump cursor-pointer"
+          className="hover:animate-anime-jump cursor-pointer w-auto"
           width={500}
           height={500}
           priority
